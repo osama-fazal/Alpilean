@@ -1,0 +1,504 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+div {
+    max-width: 1140px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100%; */
+}
+
+div.two-headings h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #DA3E00;
+    text-align: center;
+    padding: 10px;
+}
+
+div.two-headings h2 {
+    padding: 10px;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 63px;
+    color: #000203;
+}
+
+div.two-column {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+div.two-column .left-image-column {
+    flex-direction: column;
+    width: 50%;
+}
+
+div.two-column img.first {
+    max-width: 450px;
+}
+
+div.two-column img.second {
+    max-width: 420px;
+}
+
+div.two-column img.third {
+    max-width: 420px;
+}
+
+div.two-column .right-column {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 10px;
+}
+
+div.two-column .right-column p {
+    margin: 50px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.two-column .right-column h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #ff1212;
+    margin: 20px auto;
+}
+
+div.two-column .right-column img.second {
+    max-width: 100%;
+}
+
+div.image-box {
+    margin: 50px auto;
+}
+
+div.image-box p.title {
+    margin: 20px auto;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+div.image-box p.description {
+    padding: 20px auto;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+div.why-choose {
+    margin: 50px auto;
+}
+
+div.why-choose h2 {
+    font-size: 52px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 52px;
+}
+
+div.why-choose div.image-boxes {
+    flex-direction: row;
+    text-align: center;
+}
+
+div.why-choose div.image-boxes h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px auto;
+}
+
+div.why-choose div.image-boxes p {
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+div.scientific {
+    margin: 50px auto;
+}
+
+div.scientific h2 {
+    font-size: 52px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 52px;
+}
+
+div.scientific div.image-boxes {
+    flex-direction: row;
+    text-align: center;
+}
+
+div.scientific div.image-boxes img {
+    max-width: 250px;
+}
+
+div.proven {
+    margin: 50px auto;
+}
+
+div.proven h2 {
+    font-size: 52px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 52px;
+}
+
+div.testimonials {
+    flex-direction: row;
+    gap: 20px;
+}
+
+div.what-alpile {
+    margin: 50px auto;
+}
+
+div.what-alpile h2 {
+    font-size: 52px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 52px;
+}
+
+div.what-alpile p {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.alpile-benifit {
+    margin: 50px auto;
+}
+
+div.alpile-benifit h2 {
+    font-size: 52px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 52px;
+}
+
+div.alpile-benifit ul {
+    max-width: 85%;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
+
+div.alpile-benifit img {
+    margin-bottom: 20px;
+}
+
+div.ingredients {
+    margin: 50px auto;
+}
+
+div.ingredients h2 {
+    font-size: 52px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 52px;
+}
+
+div.ingredients p {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.left-align {
+    text-align: left;
+}
+
+div.left-align p.title {
+    width: 100%;
+    margin: 30px auto;
+    font-size: 19px;
+    font-weight: 700;
+    text-decoration: underline;
+    line-height: 30px;
+}
+
+div.left-align p.description {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+div.left-align img {
+    margin-top: 50px;
+}
+
+div.lose-weight {
+    margin: 50px auto;
+}
+
+div.lose-weight h2 {
+    margin: 20px auto;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 60px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+div.lose-weight p {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+div.lose-weight h3 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+div.lose-weight img.all {
+    width: 95%;
+}
+
+div.lose-weight img.buy {
+    margin-bottom: -50px;
+}
+
+@media screen and (max-width:1024px) {
+    div.two-column {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    div {
+        max-width: auto;
+    }
+
+    div.two-column {
+        flex-direction: column;
+    }
+
+    div.two-headings h2 {
+        padding: 10px;
+        text-align: center;
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 42px;
+        color: #000203;
+    }
+
+    div.two-column img.first {
+        max-width: 350px;
+    }
+
+    div.two-column img.second {
+        max-width: 350px;
+    }
+
+    div.two-column img.third {
+        max-width: 350px;
+    }
+
+    div.two-column .right-column {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 90%;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 30px;
+        padding: 10px;
+    }
+
+    div.two-column .right-column h2 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 48px;
+        color: #ff1212;
+        margin: 20px auto;
+    }
+
+    div.two-column .right-column p {
+        margin: 20px 0px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    div.why-choose h2 {
+        font-size: 42px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        line-height: 52px;
+        text-align: center;
+    }
+
+    div.why-choose div.image-boxes {
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+        margin: 20px;
+    }
+
+    div.scientific div.image-boxes {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    div.scientific h2 {
+        font-size: 42px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        line-height: 52px;
+        text-align: center;
+    }
+
+    div.scientific div.image-boxes img {
+        max-width: 350px;
+    }
+
+    div.proven h2 {
+        font-size: 42px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        line-height: 52px;
+        text-align: center;
+    }
+
+    div.proven img {
+        max-width: 350px;
+    }
+
+    div.testimonials {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    div.what-alpile h2 {
+        text-align: center;
+        font-size: 59px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        line-height: 52px;
+        margin-bottom: 20px;
+    }
+    div.what-alpile {
+        margin: 50px auto;
+        max-width: 95%;
+    }
+    div.alpile-benifit h2 {
+        font-size: 42px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        line-height: 52px;
+        text-align: center;
+    }
+    div.alpile-benifit img {
+        margin-bottom: 20px;
+        max-width: 350px;
+    }
+    div.ingredients h2 {
+        font-size: 42px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        line-height: 52px;
+    }
+    div.ingredients {
+        margin: 50px auto;
+        max-width: 95%;
+    }
+    div.left-align {
+        text-align: left;
+        max-width: 95%;
+    }
+    div.left-align img {
+        margin-top: 50px;
+        max-width: 100%;
+    }
+    div.two-column div.img img{
+        max-width: 100%;
+    }
+    div.lose-weight h2 {
+        margin: 20px auto;
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 60px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    div.lose-weight {
+        margin: 50px auto;
+        max-width: 95%;
+    }
+    div.lose-weight h3 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: center;
+    }
+    div.lose-weight img.buy {
+        margin-bottom: -50px;
+        max-width: 100%;
+    }    
+    
+
+}
+@media screen and (max-width:350px) {
+    body{
+        width: 100%;
+    }
+    div.two-column img.first {
+        max-width: 270px;
+    }
+    div.two-column img.second {
+        max-width: 270px;
+    }
+    div.two-column img.third {
+        max-width: 270px;
+    }
+    div.image-box img{
+        max-width: 270px;
+    }
+    div.scientific div.image-boxes img {
+        max-width: 270px;
+    }
+    div.proven img {
+        max-width: 270px;
+    }
+    div.testimonials img{
+        max-width: 270px;
+    }
+    div.alpile-benifit img {
+        margin-bottom: 20px;
+        max-width: 270px;
+    }
+}
